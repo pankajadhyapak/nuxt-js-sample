@@ -11,7 +11,6 @@ module.exports = {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
@@ -26,6 +25,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  css: [
+    '@/assets/style.css'
+  ],
   build: {
     /*
     ** Run ESLint on save
